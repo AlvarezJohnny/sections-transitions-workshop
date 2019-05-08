@@ -1,0 +1,35 @@
+.secs-1 {
+  background-color: blue;
+  height: 800px;
+}
+
+.smash {
+  position: absolute;
+  width: 550px;
+  height: 550px;
+
+}
+
+.why {
+  padding-left: 700px;
+  padding-top: 350px;
+  
+}
+
+.secs-2 {
+  background-color: orange;
+  height: 800px;
+}
+
+.switch {
+  text-align: center;
+  padding-top: 280px;
+}
+.secs-3 {
+  background-color: black;
+  height: 800px;
+}
+.secs-4 {
+  background-color: #fab1a0;
+  height: 800px;
+}
