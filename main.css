@@ -1,3 +1,17 @@
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
+.show {
+  animation-name: fadeIn;
+  animation-duration: 600ms;
+}
+
 .secs-1 {
   background-color: blue;
   height: 800px;
@@ -13,7 +27,7 @@
 .why {
   padding-left: 700px;
   padding-top: 350px;
-  
+
 }
 
 .secs-2 {
@@ -21,13 +35,33 @@
   height: 800px;
 }
 
-.switch {
-  text-align: center;
-  padding-top: 280px;
+.main{
+  position: relative;
+  padding-left: 500px;
+  padding-top: 250px;
 }
+
+.Wolf {
+  text-align: center;
+  padding-top: 50px;
+}
+
 .secs-3 {
   background-color: black;
   height: 800px;
+}
+
+.SF {
+  position: absolute;
+  width: 600px;
+  height: 650px;
+
+}
+
+.notMK {
+  color: white;
+  padding-left: 700px;
+  padding-top: 250px;
 }
 .secs-4 {
   background-color: #fab1a0;
